@@ -158,9 +158,10 @@ module.exports = {
     }],
     plugins: ['@vuepress/back-to-top'],
     plugins: ['autometa', autometa_options],
-    plugins: ['sitemap', {
-        hostname: "https://shionbot.xyz",
-        exclude: ["/404.html"]
+    plugins: {
+        'sitemap': {
+            hostname: 'https://shionbot.xyz',
+            exclude: ["/404.html"]
+        },
     }
-    ],
 }
