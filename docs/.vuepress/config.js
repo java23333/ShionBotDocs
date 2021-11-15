@@ -15,6 +15,8 @@ module.exports = {
     themeConfig: {
         locales: {
             '/': {
+                selectText: '语言',
+                label: '简体中文',
                 nav: [
                     { text: 'GitHub', link: 'https://github.com/nyancatda/ShionBot' }
                 ],
@@ -53,6 +55,8 @@ module.exports = {
                 ]
             },
             '/languages/en-US/': {
+                selectText: 'Language',
+                label: 'English',
                 nav: [
                     { text: 'GitHub', link: 'https://github.com/nyancatda/ShionBot' }
                 ],
@@ -91,6 +95,8 @@ module.exports = {
                 ]
             },
             '/languages/ja-JP/': {
+                selectText: 'Language',
+                label: '日本語',
                 nav: [
                     { text: 'GitHub', link: 'https://github.com/nyancatda/ShionBot' }
                 ],
