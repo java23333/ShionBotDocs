@@ -5,6 +5,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
+    dest: 'dist/',
     themeConfig: {
         locales: {
             '/': {
