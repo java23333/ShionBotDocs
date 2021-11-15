@@ -1,3 +1,10 @@
+const autometa_options = {
+    site: {
+        name: 'ShionBot',
+    },
+    canonical_base: 'https://shionbot.xyz',
+};
+
 module.exports = {
     title: 'Shion Bot',
     description: 'Shion Bot文档',
@@ -150,4 +157,10 @@ module.exports = {
         headerAnchorSelector: '.header-anchor'
     }],
     plugins: ['@vuepress/back-to-top'],
+    plugins: ['autometa', autometa_options],
+    plugins: ['sitemap', {
+        hostname: "https://shionbot.xyz",
+        exclude: ["/404.html"]
+    }
+    ],
 }
