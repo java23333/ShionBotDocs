@@ -19,7 +19,7 @@ sidebar: false
    <img width="160" :src="$withBase('/img/logo.png')" alt="logo">
    <h1>ShionBot</h1>
    <p>通过聊天软件对MediaWiki进行信息查询的机器人</p>
-   <a href="How-to-ues/Start">
+   <a href="How-to-ues/Start.html">
       <button class="button-go">立即开始 →</button>
    </a>
 </div>
