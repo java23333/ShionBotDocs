@@ -33,7 +33,7 @@ module.exports = {
                     {
                         title: '聊天软件配置',
                         collapsable: false,
-                        path: 'SNS-Configuration/',
+                        path: '/SNS-Configuration/',
                         children: [
                             ['SNS-Configuration/mirai-api-http(QQ)', 'mirai-api-http(QQ)'],
                             ['SNS-Configuration/Telegram', 'Telegram'],
