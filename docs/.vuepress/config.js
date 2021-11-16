@@ -45,11 +45,6 @@ module.exports = {
                         title: '指令',
                         collapsable: false,
                         path: '/Command/',
-                        children: [
-                            ['Command/Inquire-the-Wiki', '查询Wiki'],
-                            ['Command/help', '/help'],
-                            ['Command/language', '/language'],
-                        ],
                     },
                     ['/Multi-language', '多语言支持'],
                     ['/About', '关于这个项目']
@@ -86,11 +81,6 @@ module.exports = {
                         title: 'Command',
                         collapsable: false,
                         path: '/languages/en-US/Command/',
-                        children: [
-                            ['/languages/en-US/Command/Inquire-the-Wiki', 'Inquire the Wiki'],
-                            ['/languages/en-US/Command/help', '/help'],
-                            ['/languages/en-US/Command/language', '/language'],
-                        ],
                     },
                     ['/languages/en-US/Multi-language', 'Multi-language'],
                     ['/languages/en-US/About', 'About']
@@ -127,11 +117,6 @@ module.exports = {
                         title: 'コマンド',
                         collapsable: false,
                         path: '/languages/ja-JP/Command/',
-                        children: [
-                            ['/languages/ja-JP/Command/Inquire-the-Wiki', '検索Wiki'],
-                            ['/languages/ja-JP/Command/help', '/help'],
-                            ['/languages/ja-JP/Command/language', '/language'],
-                        ],
                     },
                     ['/languages/ja-JP/Multi-language', '多语言アダプテーション'],
                     ['/languages/ja-JP/About', 'について']
