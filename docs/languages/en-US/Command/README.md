@@ -18,7 +18,7 @@ Example:
 ## /help
 1. `/help`
 
-Help
+**Help**
 
 Example:
 ```
@@ -32,7 +32,7 @@ The modification only takes effect for a single user. Please modify the default 
 
 1. `/language`
 
-展示可用语言列表
+**展示可用语言列表**
 
 Example:
 ```
@@ -41,7 +41,7 @@ Example:
 
 2. `/language language`
 
-Change language
+**Change language**
 
 Example:
 ```
