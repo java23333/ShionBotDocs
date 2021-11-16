@@ -87,10 +87,10 @@ module.exports = {
                 ]
             },
             '/languages/ja-JP/': {
-                selectText: 'Language',
+                selectText: '言語を選ぶ',
                 label: '日本語',
                 nav: [
-                    { text: '文档', link: '/languages/ja-JP/How-to-ues/Start' },
+                    { text: 'ドキュメント', link: '/languages/ja-JP/How-to-ues/Start' },
                     { text: 'GitHub', link: 'https://github.com/nyancatda/ShionBot' }
                 ],
                 sidebar: [
@@ -138,7 +138,7 @@ module.exports = {
         '/languages/ja-JP/': {
             lang: 'ja-JP',
             title: 'Shion Bot',
-            description: 'Shion Bot文档',
+            description: 'Shion Botドキュメント',
         }
     },
     markdown: {
