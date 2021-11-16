@@ -18,10 +18,10 @@ module.exports = {
                 selectText: '语言',
                 label: '简体中文',
                 nav: [
+                    { text: '文档', link: 'How-to-ues/Start' },
                     { text: 'GitHub', link: 'https://github.com/nyancatda/ShionBot' }
                 ],
                 sidebar: [
-                    ['/', '简介'],
                     {
                         title: '如何使用',
                         collapsable: false,
@@ -54,10 +54,10 @@ module.exports = {
                 selectText: 'Language',
                 label: 'English',
                 nav: [
+                    { text: 'Docs', link: '/languages/en-US/How-to-ues/Start' },
                     { text: 'GitHub', link: 'https://github.com/nyancatda/ShionBot' }
                 ],
                 sidebar: [
-                    ['/languages/en-US/', 'Introduce'],
                     {
                         title: 'How to ues',
                         collapsable: false,
@@ -90,10 +90,10 @@ module.exports = {
                 selectText: 'Language',
                 label: '日本語',
                 nav: [
+                    { text: '文档', link: '/languages/ja-JP/How-to-ues/Start' },
                     { text: 'GitHub', link: 'https://github.com/nyancatda/ShionBot' }
                 ],
                 sidebar: [
-                    ['/languages/ja-JP/', '概要'],
                     {
                         title: '使い方',
                         collapsable: false,
