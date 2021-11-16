@@ -35,7 +35,7 @@ SNS:
     Switch: true
     #ボットのアクセスtoken
     ChannelAccessToken: Qik9O7sP49vCeY/b6zWaDa0......
-    #LineBotAPI地址
+    #LineBotAPIアドレス
     BotAPILink: https://api.line.me/
   KaiHeiLa:
     #KaiHeiLaボット部分をONにするか
