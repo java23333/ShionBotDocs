@@ -8,6 +8,6 @@
 - [ ] ru_RU(русский язык)
 
 
-::: tip 贡献更多语言
+::: tip 他の言語の追加や今使える言語の訂正
 このプロジェクトにさらに言語を追加したい場合は、repositoryをforkして、`resources/language`ディレクトリでファイルを作成する。翻訳ができたらmaster repositoriesに提出したら助かります
 :::
