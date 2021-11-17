@@ -23,7 +23,7 @@ SNS:
     BotQQNumber: 1000000000
     #HttpAPIのVerifyKey
     VerifyKey: 5eadce46qw58
-  テルグラム:
+  Telegram:
     #テルグラムボット部分をONにするか
     Switch: true
     #ボットtoekn
