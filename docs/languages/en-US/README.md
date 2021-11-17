@@ -18,7 +18,7 @@ sidebar: false
 <div align="center">
    <img width="160" :src="$withBase('/img/logo.png')" alt="logo">
    <h1>ShionBot</h1>
-   <p>A robot that queries MediaWiki via SNS</p>
+   <p>A robot that queries MediaWiki via Chat Software</p>
    <a href="How-to-ues/Start.html">
       <button class="button-go">立即开始 →</button>
    </a>
