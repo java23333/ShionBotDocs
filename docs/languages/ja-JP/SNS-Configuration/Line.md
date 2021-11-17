@@ -8,14 +8,14 @@ https://127.0.0.1:8000/32eeAme5lwEG0KL
 LineのWebHookアップロードアドレスは`https`が必要なので、ボットのアップロードしたアドレスを逆方向プロキシする可能性もある
 :::
 
-2. もしあなたのサーバは中国にいたら、Telegram Bot APIの逆方向プロキシを構築するも必要 どうやって構築できることに関して、これを見てください[LineBotAPIのプロキシするサーバの構築](l#linebotapi反向代理服务器搭建)
+2. もしあなたのサーバは中国にいたら、LINE Bot APIの逆方向プロキシを構築するも必要 どうやって構築できることに関して、これを見てください[LineBotAPIの逆方向プロキシするサーバの構築](l#LineBotAPIの逆方向プロキシするサーバの構築)
 
-## LineBotAPI反向代理服务器搭建
-本篇教程将告诉你如何使用CloudFlare Workers搭建一个自己的LineBotAPI反向代理服务器  
-如果你懒得搭建，可以使用我已经搭建好的服务，地址：[https://linebotapi.h123hh.workers.dev/](https://linebotapi.h123hh.workers.dev/)  
-1. 前往[CloudFlare Workers](https://workers.cloudflare.com/)官网，注册一个账号，并新建一个Worker
+## LineBotAPIの逆方向プロキシするサーバの構築
+このガイダンスはこれからCloudFlare Workersを使って自分のLINE Bot APIの逆方向プロキシを構築する方法を教える  
+もし自分が構築したくないなら、私がもう構築したものを使ってもいい，アドレス：[https://linebotapi.h123hh.workers.dev/](https://linebotapi.h123hh.workers.dev/)  
+1. [CloudFlare Workers](https://workers.cloudflare.com/)アドレスにアクセスして、アカウントを新規に作成する それにWorkerも作成してください
 
-2. 在脚本中写入以下代码  
+2. スクリプトに以下のコードを入力してください  
 ``` js
 const whitelist = ["/v2/bot"];
 const tg_host = "api.line.me";
@@ -48,6 +48,5 @@ async function handleRequest(request) {
     return result;
 }
 ```
-3. 点击保存并部署
-
-4. 在将配置文件中的`BotAPILink`修改为这个Worker的地址即可
+3. 保存して部署する  
+4. 配置ドキュメントの中にある`BotAPILink`をこのWorkerのアドレスに変えたら完成

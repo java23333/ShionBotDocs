@@ -20,7 +20,7 @@ sidebar: false
    <h1>ShionBot</h1>
    <p>チャットソフトでMediaWikiを使って検索するボット</p>
    <a href="How-to-ues/Start.html">
-      <button class="button-go">立即开始 →</button>
+      <button class="button-go">スタート →</button>
    </a>
 </div>
 <br>

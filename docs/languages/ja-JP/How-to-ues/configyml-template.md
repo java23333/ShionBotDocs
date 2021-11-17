@@ -1,7 +1,7 @@
 ## config.ymlファイルテンプレート
 
 ::: warning 注意
-如果你不需要使用某个机器人配置，请将`Switch`设置为`false`，而不是直接不填写
+例えあるBotの配置が要らなかったらとしても、その`Switch`を`false`に設定してください。記入しないと大変
 :::
 
 ``` yml
@@ -23,24 +23,24 @@ SNS:
     BotQQNumber: 1000000000
     #HttpAPIのVerifyKey
     VerifyKey: 5eadce46qw58
-  テルグラム:
+  Telegram:
     #テルグラムボット部分をONにするか
     Switch: true
     #ボットtoekn
     Token: 688975899:DDFqpsdMwunUvwAsxzDTzl8z_UkYzStrewM
     #TelegramAPIアドレス
     BotAPILink: https://api.telegram.org/
-  Line:
-    #是否启用Line机器人部分
+  LINE:
+    #LINEボット部分をONにするか
     Switch: true
-    #机器人的访问token
+    #ボットのアクセスtoken
     ChannelAccessToken: Qik9O7sP49vCeY/b6zWaDa0......
-    #LineBotAPI地址
+    #LineBotAPIアドレス
     BotAPILink: https://api.line.me/
   KaiHeiLa:
-    #是否启用KaiHeiLa机器人部分
+    #KaiHeiLaボット部分をONにするか
     Switch: true
-    #机器人的token
+    #ボットのtoken
     Token: 5/SYT1Jxy=/mSkjHYtjsqq/2JY==
 #Wikiアドレス 複数、一番目が優先のWiki
 Wiki:
