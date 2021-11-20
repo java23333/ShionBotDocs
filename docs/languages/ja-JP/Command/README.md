@@ -52,6 +52,11 @@ mw:◯◯
 ::: warning 注意
 修改只针对执行指令的用户生效，优先级高于默认配置，如果需要修改默认配置，请修改[配置文件](How-to-ues/configyml-template.md)
 :::
+::: tip 关于自定义Wiki系统
+仅支持添加`https`站点，且需要机器人所在服务器可以访问目标Wiki
+
+如果MediaWiki部署在非根目录，则`<Wiki链接>`也需要填写相应的路径，例如wikipedia的api地址为`https://zh.wikipedia.org/w/api.php`，则需要填写`zh.wikipedia.org/w`
+:::
 
 1. `/wikiadd <Wiki名字> <Wiki链接>`
 
