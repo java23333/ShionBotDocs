@@ -60,7 +60,7 @@ mw:◯◯
 
 1. `/wikiadd <Wiki名字> <Wiki链接>`
 
-**添加一个Wiki站点**
+**添加一个MediaWiki站点**
 
 例子:
 ```
@@ -74,7 +74,7 @@ mw:◯◯
 
 1. `/wikiupdate <Wiki名字> <Wiki链接>`
 
-**更新一个已经添加的Wiki站点的链接**
+**更新一个已经添加的MediaWiki站点的链接**
 
 例子:
 ```
@@ -88,7 +88,7 @@ mw:◯◯
 
 1. `/wikidelete <Wiki名字>`
 
-**删除一个已经添加的Wiki站点**
+**删除一个已经添加的MediaWiki站点**
 
 例子:
 ```
