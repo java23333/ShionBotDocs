@@ -1,32 +1,17 @@
 ---
+home: true
+heroImage: /img/logo.png
+heroText: ShionBot
+tagline: A robot that queries MediaWiki via Chat Software
+actionText: 立即开始 →
+actionLink: How-to-ues/Start.html
+features:
+- title: 上手简单
+  details: 只需简单的配置，就能搭建一个属于自己的MediaWiki机器人
+- title: 跨平台
+  details: 支持QQ，Telegram，Line等多个聊天平台，一次配置即可在多个聊天软件获得相同的体验
+- title: 更好的性能
+  details: 使用Golang编写，带来最好的性能表现和多线程处理能力
+footer: MIT Licensed | Copyright © 2021 NyanCatda All rights reserved.
 sidebar: false
 ---
-<style>
-.button-go {
-   background-color: #3eaf7c;
-   border: none;
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 20px;
-   border-radius: 4px;
-   cursor:pointer;
-}
-</style>
-<div align="center">
-   <img width="160" :src="$withBase('/img/logo.png')" alt="logo">
-   <h1>ShionBot</h1>
-   <p>A robot that queries MediaWiki via Chat Software</p>
-   <a href="How-to-ues/Start.html">
-      <button class="button-go">立即开始 →</button>
-   </a>
-</div>
-<br>
-----
-<br>
-
-Support a variety of languages, cross-platform compatibility, support QQ\Telegram\Line\KaiHeiLa.
-
-Based on Gin snd [mirai-api-http](https://github.com/project-mirai/mirai-api-http)
