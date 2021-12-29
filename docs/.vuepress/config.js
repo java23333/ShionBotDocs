@@ -18,7 +18,7 @@ module.exports = {
                 selectText: '语言',
                 label: '简体中文',
                 nav: [
-                    { text: '文档', link: 'How-to-ues/Start' },
+                    { text: '文档', link: '/How-to-ues/Start' },
                     { text: 'GitHub', link: 'https://github.com/nyancatda/ShionBot' }
                 ],
                 sidebar: [
