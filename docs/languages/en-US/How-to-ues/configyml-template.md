@@ -1,16 +1,20 @@
-## config.yml template
+## config.yml file template
 
-::: warning 注意
-如果你不需要使用某个机器人配置，请将`Switch`设置为`false`，而不是直接不填写
+::: warning 
+If you don't need to use a robot configuration, set 'Switch' to 'false' instead of leaving it blank
+:::
+
+::: tip 
+You can specify the configuration file location with the '-config' parameter. The default is the program level directory
 :::
 
 ``` yml
 Run:
-  #Specify Webhook receiving port
+  #Specifies the port of the robot
   WebHookPort: 8000
-  #Robot WebHook Key (only letter and number)
+  #Specifies WebHook Key (only letters and numbers)
   WebHookKey: 32eeAme5lwEG0KL
-  #Language
+  #Specifies the language of the robot
   #Chinese:zh-CN,English:en-US,Japanese:ja-JP
   Language: zh-CN
 SNS:
@@ -19,35 +23,35 @@ SNS:
     Switch: true
     #HttpAPI address
     APILink: http://127.0.0.1:8888
-    #QQ number of the robot
+    #Robot QQ number
     BotQQNumber: 1000000000
-    #HttpAPI‘s VerifyKey
+    #HttpAPI的VerifyKey
     VerifyKey: 5eadce46qw58
   Telegram:
-    #Whether to enable thr Telegram robot function
+    #Whether to enable the Telegram robot function
     Switch: true
-    #Robot toekn
+    #Robot access toekn
     Token: 688975899:DDFqpsdMwunUvwAsxzDTzl8z_UkYzStrewM
     #TelegramAPI address
     BotAPILink: https://api.telegram.org/
   Line:
-    #是否启用Line机器人部分
+    #Whether to enable the Line robot function
     Switch: true
-    #机器人的访问token
+    #Robot access token
     ChannelAccessToken: Qik9O7sP49vCeY/b6zWaDa0......
-    #LineBotAPI地址
+    #LineBotAPI address
     BotAPILink: https://api.line.me/
   KaiHeiLa:
-    #是否启用KaiHeiLa机器人部分
+    #Whether to enable the KaiHeiLa robot function
     Switch: true
-    #机器人的token
+    #Robot access token
     Token: 5/SYT1Jxy=/mSkjHYtjsqq/2JY==
-#Wiki urls. Multiple URLs can be added. The first one is the default Wiki
+#Wiki Link, Support multiple, First is the main Wiki
 Wiki:
   - 
-    #Wiki name, the prefix of the command，example: mw:home
+    #Wiki Name, Instruction prefix, Like mw:Home
     WikiName: mw
-    #Wiki's URLs
+    #Wiki's Link
     WikiLink: https://minewiki.net
   - 
     WikiName: mg

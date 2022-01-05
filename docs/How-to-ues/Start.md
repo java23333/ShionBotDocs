@@ -1,16 +1,15 @@
-# Setup
-1. Download the latest [Releases](https://github.com/nyancatda/ShionBot/releases).
+# 部署
+1. 前往[Releases](https://github.com/nyancatda/ShionBot/releases)下载最新构建
 
-2. Read the docs and fill the [config.yml](configyml-template.md). Then place the files in the same directory as the program.
+2. 按照说明创建并填写[config.yml](configyml-template.md)，并将文件放置在程序同级目录
 
-3. Configure [Chat Software](/SNS-Configuration/README.md)
+3. 配置[聊天软件](/SNS-Configuration/README.md)
 
-4. Run the program
+4. 运行程序
 > Linux
 ``` shell
-#Give run permission
+#给予运行权限
 chmod 774 Linux-x86-x64
 
-#Start
+#启动
 ./Linux-x86-x64 -config ./config.yml
-```
