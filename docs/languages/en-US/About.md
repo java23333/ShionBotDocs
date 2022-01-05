@@ -1,5 +1,5 @@
 # About
-如果你有对项目有什么疑问，欢迎加入[QQ群](https://jq.qq.com/?_wv=1027&k=Jjkjg2mR)
+If you have any questions, please join our [QQ group](https://jq.qq.com/?_wv=1027&k=Jjkjg2mR)
 
 ## 🎐 Thanks  
 Thanks to all contributors  
