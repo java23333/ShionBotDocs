@@ -2,16 +2,16 @@
 home: true
 heroImage: /img/logo.png
 heroText: ShionBot
-tagline: チャットソフトでMediaWikiを使って検索するボット
+tagline: チャットソフトでMediaWikiで検索するボット
 actionText: スタート →
 actionLink: How-to-ues/Start.html
 features:
-- title: 上手简单
-  details: 只需简单的配置，就能搭建一个属于自己的MediaWiki机器人
-- title: 跨平台
-  details: 支持QQ，Telegram，Line等多个聊天平台，一次配置即可在多个聊天软件获得相同的体验
-- title: 更好的性能
-  details: 使用Golang编写，带来最好的性能表现和多线程处理能力
+- title: 使いやすい
+  details: 簡単な配置だけで、自分のMediaWikiボットを作れる
+- title: プラットフォームを跨る
+  details: QQやテルグラム、Lineなどのサポート、一旦設置すると複数のSNSで同じ体験になる
+- title: パフォーマンス最優化
+  details: Golangでプログラミングしていてので、最もいい性能評価とマルチスレッドがある
 footer: MIT Licensed | Copyright © 2021 NyanCatda All rights reserved.
 sidebar: false
 ---
