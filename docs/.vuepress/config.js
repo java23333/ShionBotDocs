@@ -128,7 +128,7 @@ module.exports = {
         '/': {
             lang: 'zh-CN',
             title: 'Shion Bot',
-            description: 'Shion Bot文档',
+            description: 'Shion Bot文档 | 通过聊天软件对MediaWiki进行信息查询的机器人',
         },
         '/languages/en-US/': {
             lang: 'en-US',
