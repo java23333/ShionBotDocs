@@ -28,16 +28,16 @@ mw:◯◯
 ## /userinfo
 1. `/userinfo`
 
-**查询自己的用户信息**
+**自分の情報を調べる**
 
-例子:
+例:
 ```
 /userinfo
 ```
 
 ## /language
 ::: warning 注意
-修改只针对执行指令的用户生效，优先级高于默认配置，如果需要修改默认配置，请修改[配置文件](How-to-ues/configyml-template.md)
+このコマンドは実行されるユーザーのみ有効になるので、デフォルト配置より優先される デフォルト配置を修正したい場合は[配置ファイル](How-to-ues/configyml-template.md)
 :::
 
 1. `/language`
@@ -60,61 +60,61 @@ mw:◯◯
 
 ## /wikiadd
 ::: warning 注意
-修改只针对执行指令的用户生效，优先级高于默认配置，如果需要修改默认配置，请修改[配置文件](How-to-ues/configyml-template.md)
+このコマンドは実行されるユーザーのみ有効になるので、デフォルト配置より優先される デフォルト配置を修正したい場合は[配置ファイル](How-to-ues/configyml-template.md)
 :::
-::: tip 关于自定义Wiki系统
-仅支持添加`https`站点，且需要机器人所在服务器可以访问目标Wiki
+::: tip 本身定義Wikiシステムについて
+`https`サイト追加のみ、また、ロボットが配置されているサーバーは、リンク先URLにアクセスできる必要がある
 
-如果MediaWiki部署在非根目录，则`<Wiki链接>`也需要填写相应的路径，例如wikipedia的api地址为`https://zh.wikipedia.org/w/api.php`，则需要填写`zh.wikipedia.org/w`
+もしMediaWikiはルートディレクトリに設置されている場合、`<Wikiリンク>`に対応するパスを入力する必要もある 例えばwikipediaのapiリンクは`https://zh.wikipedia.org/w/api.php`の場合　`zh.wikipedia.org/w`と入力する必要がある
 :::
 
-1. `/wikiadd <Wiki名字> <Wiki链接>`
+1. `/wikiadd <Wiki名> <Wikiリンク>`
 
-**添加一个MediaWiki站点**
+**MediaWikiサイトの追加**
 
-例子:
+例:
 ```
 /wikiadd mg zh.moegirl.org.cn
 ```
 
 ## /wikiupdate
 ::: warning 注意
-修改只针对执行指令的用户生效，优先级高于默认配置，如果需要修改默认配置，请修改[配置文件](How-to-ues/configyml-template.md)
+このコマンドは実行されるユーザーのみ有効になるので、デフォルト配置より優先される デフォルト配置を修正したい場合は[配置ファイル](How-to-ues/configyml-template.md)
 :::
 
-1. `/wikiupdate <Wiki名字> <Wiki链接>`
+1. `/wikiupdate <Wiki名> <Wikiリンク>`
 
-**更新一个已经添加的MediaWiki站点的链接**
+**追加されたMediaWikiサイトの更新**
 
-例子:
+例:
 ```
 /wikiupdate mg zh.moegirl.org.cn
 ```
 
 ## /wikidelete
 ::: warning 注意
-修改只针对执行指令的用户生效，优先级高于默认配置，如果需要修改默认配置，请修改[配置文件](How-to-ues/configyml-template.md)
+このコマンドは実行されるユーザーのみ有効になるので、デフォルト配置より優先される デフォルト配置を修正したい場合は[配置ファイル](How-to-ues/configyml-template.md)
 :::
 
-1. `/wikidelete <Wiki名字>`
+1. `/wikidelete <Wiki名>`
 
-**删除一个已经添加的MediaWiki站点**
+**追加されたMediaWikiサイトの削除**
 
-例子:
+例:
 ```
 /wikidelete mg
 ```
 
 ## /importdata
 ::: warning 注意
-修改只针对执行指令的用户生效，优先级高于默认配置，如果需要修改默认配置，请修改[配置文件](How-to-ues/configyml-template.md)
+このコマンドは実行されるユーザーのみ有効になるので、デフォルト配置より優先される デフォルト配置を修正したい場合は[配置ファイル](How-to-ues/configyml-template.md)
 :::
 
-1. `/importdata <聊天软件名字> <对方的用户ID>`
+1. `/importdata <SNS> <他のユーザーのID>`
 
-**跨平台导入其他用户的配置数据，例如语言，Wiki站点等**
+**プラットフォームを跨って他のユーザーの配置をインポートする　例：言語やWikiサイトなど**
 
-例子:
+例:
 ```
 /importdata Telegram 1000000000
 ```
