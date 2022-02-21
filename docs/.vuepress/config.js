@@ -87,7 +87,7 @@ module.exports = {
                 ]
             },
             '/languages/ja-JP/': {
-                selectText: '言語を選ぶ',
+                selectText: '言語',
                 label: '日本語',
                 nav: [
                     { text: 'ドキュメント', link: '/languages/ja-JP/How-to-ues/Start' },
@@ -138,7 +138,7 @@ module.exports = {
         '/languages/ja-JP/': {
             lang: 'ja-JP',
             title: 'Shion Bot',
-            description: 'Shion Botドキュメント',
+            description: 'Shion Botドキュメント | SNSでMedia Wiki内容を検索するボット',
         }
     },
     markdown: {
