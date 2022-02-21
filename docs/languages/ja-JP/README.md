@@ -2,8 +2,8 @@
 home: true
 heroImage: /img/logo.png
 heroText: ShionBot
-tagline: チャットソフトでMediaWikiで検索するボット
-actionText: スタート →
+tagline: SNSでMediaWiki内容を検索する
+actionText: Start →
 actionLink: How-to-ues/Start.html
 features:
 - title: 使いやすい
