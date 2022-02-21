@@ -10,7 +10,7 @@ LineのWebHookアップロードアドレスは`https`が必要なので、ボ�
 
 2. もしあなたのサーバは中国にいたら、LINE Bot APIの逆方向プロキシを構築するも必要 どうやって構築できることに関して、これを見てください[LineBotAPIの逆方向プロキシするサーバの構築](l#LineBotAPIの逆方向プロキシするサーバの構築)
 
-## LineBotAPIの逆方向プロキシするサーバの構築
+## LineBotAPIの逆方向プロキシサーバの構築
 このガイダンスはこれからCloudFlare Workersを使って自分のLINE Bot APIの逆方向プロキシを構築する方法を教える  
 もし自分が構築したくないなら、私がもう構築したものを使ってもいい，アドレス：[https://linebotapi.h123hh.workers.dev/](https://linebotapi.h123hh.workers.dev/)  
 1. [CloudFlare Workers](https://workers.cloudflare.com/)アドレスにアクセスして、アカウントを新規に作成する それにWorkerも作成してください
