@@ -1,6 +1,6 @@
 # KaiHeiLa
-1. 设置WebHook地址为机器人接收地址`https://<机器人IP/URL地址>:<指定的机器人运行端口>/<指定的机器人密钥>`  
-WebHook地址例子:
+1. Set the WebHook address as the robot receiving address `https://<Robot IP/URL adress>:<Port>/<Key>`  
+WebHook address example:
 ```
 https://127.0.0.1:8000/32eeAme5lwEG0KL
 ```

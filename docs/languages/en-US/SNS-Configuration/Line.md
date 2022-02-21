@@ -4,7 +4,7 @@ WebHook address example:
 ```
 https://127.0.0.1:8000/32eeAme5lwEG0KL
 ```
-::: warning 注意
+::: warning Notice
 Warning, Line WebHook report address needs `HTTPS` , which may need to do reverse proxy for the address robot receives report
 :::
 

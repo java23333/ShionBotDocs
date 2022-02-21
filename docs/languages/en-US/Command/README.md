@@ -36,7 +36,7 @@ Example:
 ```
 
 ## /language
-::: warning Wrning
+::: warning Notice
 The modification takes effect only for the user who runs the command and has a higher priority than the default configuration. If you need to modify the default configuration, modify the [configuration file](How-to-ues/configyml-template.md)
 :::
 
@@ -93,28 +93,28 @@ Example:
 
 ## /wikidelete
 ::: warning Warning
-修改只针对执行指令的用户生效，优先级高于默认配置，如果需要修改默认配置，请修改[配置文件](How-to-ues/configyml-template.md)
+The modification takes effect only for the user who runs the command and has a higher priority than the default configuration. If you need to modify the default configuration, modify the [configuration file](How-to-ues/configyml-template.md)
 :::
 
 1. `/wikidelete <Wiki名字>`
 
-**删除一个已经添加的MediaWiki站点**
+**Delete a MediaWiki site that has been added**
 
-例子:
+Example:
 ```
 /wikidelete mg
 ```
 
 ## /importdata
-::: warning 注意
-修改只针对执行指令的用户生效，优先级高于默认配置，如果需要修改默认配置，请修改[配置文件](How-to-ues/configyml-template.md)
+::: warning Notice
+The modification takes effect only for the user who runs the command and has a higher priority than the default configuration. If you need to modify the default configuration, modify the [configuration file](How-to-ues/configyml-template.md)
 :::
 
-1. `/importdata <聊天软件名字> <对方的用户ID>`
+1. `/importdata <Software name> <User ID>`
 
-**跨平台导入其他用户的配置数据，例如语言，Wiki站点等**
+**Cross-platform import configuration data of other users, such as languages and Wiki sites**
 
-例子:
+Example:
 ```
 /importdata Telegram 1000000000
 ```
