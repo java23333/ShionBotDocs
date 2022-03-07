@@ -7,6 +7,6 @@ Adaptation progress:
 - [ ] ru_RU(русский язык)
 
 
-::: tip 贡献更多语言
+::: tip Contribute to multiple languages
 If you want to add more languages to this project, please fork the repository and create a new language file in the `resources/language` directory. After the translation is completed, you can pull the request to the main repository. 
 :::

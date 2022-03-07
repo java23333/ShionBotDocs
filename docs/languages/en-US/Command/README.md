@@ -28,21 +28,21 @@ Example:
 ## /userinfo
 1. `/userinfo`
 
-**查询自己的用户信息**
+**Search for your own user information**
 
-例子:
+Example:
 ```
 /userinfo
 ```
 
 ## /language
-::: warning 注意
-修改只针对执行指令的用户生效，优先级高于默认配置，如果需要修改默认配置，请修改[配置文件](How-to-ues/configyml-template.md)
+::: warning Notice
+The modification takes effect only for the user who runs the command and has a higher priority than the default configuration. If you need to modify the default configuration, modify the [configuration file](How-to-ues/configyml-template.md)
 :::
 
 1. `/language`
 
-**展示可用语言列表**
+**Displays a list of available languages**
 
 Example:
 ```
@@ -59,62 +59,62 @@ Example:
 ```
 
 ## /wikiadd
-::: warning 注意
-修改只针对执行指令的用户生效，优先级高于默认配置，如果需要修改默认配置，请修改[配置文件](How-to-ues/configyml-template.md)
+::: warning Warning
+The modification takes effect only for the user who runs the command and has a higher priority than the default configuration. If you need to modify the default configuration, modify the [configuration file](How-to-ues/configyml-template.md)
 :::
-::: tip 关于自定义Wiki系统
-仅支持添加`https`站点，且需要机器人所在服务器可以访问目标Wiki
+::: tip About custom Wiki systems
+Only `HTTP` sites can be added, and the target Wiki must be accessible to the robot's server
 
-如果MediaWiki部署在非根目录，则`<Wiki链接>`也需要填写相应的路径，例如wikipedia的api地址为`https://zh.wikipedia.org/w/api.php`，则需要填写`zh.wikipedia.org/w`
+If MediaWiki is deployed in a non-root directory, then The `Wiki link` also need to fill in the corresponding path. For example, the wikipedia API address is `https://zh.wikipedia.org/w/api.php`, you need to fill out `zh.wikipedia.org/w`
 :::
 
-1. `/wikiadd <Wiki名字> <Wiki链接>`
+1. `/wikiadd <Wiki Name> <Wiki Link>`
 
-**添加一个MediaWiki站点**
+**Add a MediaWiki site**
 
-例子:
+Example:
 ```
 /wikiadd mg zh.moegirl.org.cn
 ```
 
 ## /wikiupdate
-::: warning 注意
-修改只针对执行指令的用户生效，优先级高于默认配置，如果需要修改默认配置，请修改[配置文件](How-to-ues/configyml-template.md)
+::: warning Warning
+The modification takes effect only for the user who runs the command and has a higher priority than the default configuration. If you need to modify the default configuration, modify the [configuration file](How-to-ues/configyml-template.md)
 :::
 
-1. `/wikiupdate <Wiki名字> <Wiki链接>`
+1. `/wikiupdate <Wiki Name> <Wiki Link>`
 
-**更新一个已经添加的MediaWiki站点的链接**
+**Update the link to the MediaWiki site that you have added**
 
-例子:
+Example:
 ```
 /wikiupdate mg zh.moegirl.org.cn
 ```
 
 ## /wikidelete
-::: warning 注意
-修改只针对执行指令的用户生效，优先级高于默认配置，如果需要修改默认配置，请修改[配置文件](How-to-ues/configyml-template.md)
+::: warning Warning
+The modification takes effect only for the user who runs the command and has a higher priority than the default configuration. If you need to modify the default configuration, modify the [configuration file](How-to-ues/configyml-template.md)
 :::
 
 1. `/wikidelete <Wiki名字>`
 
-**删除一个已经添加的MediaWiki站点**
+**Delete a MediaWiki site that has been added**
 
-例子:
+Example:
 ```
 /wikidelete mg
 ```
 
 ## /importdata
-::: warning 注意
-修改只针对执行指令的用户生效，优先级高于默认配置，如果需要修改默认配置，请修改[配置文件](How-to-ues/configyml-template.md)
+::: warning Notice
+The modification takes effect only for the user who runs the command and has a higher priority than the default configuration. If you need to modify the default configuration, modify the [configuration file](How-to-ues/configyml-template.md)
 :::
 
-1. `/importdata <聊天软件名字> <对方的用户ID>`
+1. `/importdata <Software name> <User ID>`
 
-**跨平台导入其他用户的配置数据，例如语言，Wiki站点等**
+**Cross-platform import configuration data of other users, such as languages and Wiki sites**
 
-例子:
+Example:
 ```
 /importdata Telegram 1000000000
 ```

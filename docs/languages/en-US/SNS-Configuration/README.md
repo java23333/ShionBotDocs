@@ -1,6 +1,6 @@
 # SNS Configuration
 
-::: danger 警告
+::: danger Warning
 Please configure at least one, otherwise the robot will not work
 :::
 

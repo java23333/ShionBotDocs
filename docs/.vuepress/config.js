@@ -133,7 +133,7 @@ module.exports = {
         '/languages/en-US/': {
             lang: 'en-US',
             title: 'Shion Bot',
-            description: 'Shion Bot Docs',
+            description: 'Shion Bot Docs | A robot that searches MediaWiki for information through chat software',
         },
         '/languages/ja-JP/': {
             lang: 'ja-JP',
