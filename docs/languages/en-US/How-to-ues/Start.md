@@ -1,7 +1,7 @@
 # Setup
-1. Download the latest [Releases](https://github.com/nyancatda/ShionBot/releases).
+1. Download the lasest release for your system from [GitHub Releases](https://github.com/nyancatda/ShionBot/releases)
 
-2. Read the docs and fill the [config.yml](configyml-template.md). Then place the files in the same directory as the program.
+2. Extract the downloaded package and fill in the [config.yml](configyml-template.md) according to the instructions
 
 3. Configure [Chat Software](/SNS-Configuration/README.md)
 

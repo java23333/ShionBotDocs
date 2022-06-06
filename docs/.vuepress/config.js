@@ -87,7 +87,7 @@ module.exports = {
                 ]
             },
             '/languages/ja-JP/': {
-                selectText: '言語を選ぶ',
+                selectText: '言語',
                 label: '日本語',
                 nav: [
                     { text: 'ドキュメント', link: '/languages/ja-JP/How-to-ues/Start' },
@@ -128,17 +128,17 @@ module.exports = {
         '/': {
             lang: 'zh-CN',
             title: 'Shion Bot',
-            description: 'Shion Bot文档',
+            description: 'Shion Bot文档 | 通过聊天软件对MediaWiki进行信息查询的机器人',
         },
         '/languages/en-US/': {
             lang: 'en-US',
             title: 'Shion Bot',
-            description: 'Shion Bot Docs',
+            description: 'Shion Bot Docs | A robot that searches MediaWiki for information through chat software',
         },
         '/languages/ja-JP/': {
             lang: 'ja-JP',
             title: 'Shion Bot',
-            description: 'Shion Botドキュメント',
+            description: 'Shion Botドキュメント | SNSでMedia Wiki内容を検索するボット',
         }
     },
     markdown: {
